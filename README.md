@@ -23,10 +23,8 @@ Pink         | `#fd5a91` | `253, 90, 145`  | delegates, events, macros
 
 ## UI Shades
 
-Color        | Hex       | RGB             | 
+Color        | Hex       | RGB             | Usage
 ---          | ---       | ---             | ---
-FG_Darker_1  | `#bebeb4` | `190, 190, 180` | weak warning, doc comment
-FG_Darker_2  | `#6a6e6d` | `106, 110, 109` | comments
 BG_Lighter_5 | `#4a6c82` | `74, 108, 130`  | 
 BG_Lighter_4 | `#415f73` | `65, 95, 115`   | line number
 BG_Lighter_3 | `#375061` | `55, 80, 97`    | selection, word highlight strong
