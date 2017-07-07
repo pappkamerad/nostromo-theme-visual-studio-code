@@ -25,11 +25,11 @@ Pink         | `#fd5a91` | `253, 90, 145`  | delegates, events, macros
 
 Color        | Hex       | RGB             | Usage
 ---          | ---       | ---             | ---
-BG_Lighter_5 | `#4a6c82` | `74, 108, 130`  | 
+BG_Lighter_5 | `#4a6c82` | `74, 108, 130`  | misc. ui color
 BG_Lighter_4 | `#415f73` | `65, 95, 115`   | line number
 BG_Lighter_3 | `#375061` | `55, 80, 97`    | selection, word highlight strong
 BG_Lighter_2 | `#34404a` | `52, 64, 74`    | ident guide, line number, visible white space, word highlight
-BG_Lighter_1 | `#2e363d` | `46, 54, 61`    | misc. ui color, search/find range highlight background
+BG_Lighter_1 | `#2e363d` | `46, 54, 61`    | search/find range highlight background
 BG_Darker_1  | `#21272b` | `33, 39, 43`    | current line highlight, template language
 BG_Darker_2  | `#1d2326` | `29, 35, 38`    | misc. ui color
 BG_Accent    | `#5e9d63` | `94, 157, 99`   | search/find highlight background

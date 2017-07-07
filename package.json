@@ -8,13 +8,13 @@
     "name": "Martin Theimer",
     "email": "pappkamerad@decoded.net"
   },
-  "homepage": "https://github.com/pappkamerad/nostromo-theme",
+  "homepage": "https://github.com/pappkamerad/nostromo-theme-visual-studio-code",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pappkamerad/nostromo-theme.git"
+    "url": "https://github.com/pappkamerad/nostromo-theme-visual-studio-code.git"
   },
   "bugs": {
-    "url": "https://github.com/pappkamerad/nostromo-theme/issues"
+    "url": "https://github.com/pappkamerad/nostromo-theme-visual-studio-code/issues"
   },
   "license": "LICENSE",
   "markdown": "github",
