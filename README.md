@@ -4,6 +4,9 @@ A retro sci-fi color theme.
 
 Inspired by computer terminals in sci-fi movies of the 70s and 80s.
 
+<!--![Screenshot](https://draculatheme.com/assets/img/screenshots/vscode.png)-->
+<strong>Activity Bar Badges</strong><br><img src="https://raw.githubusercontent.com/pappkamerad/nostromo-theme-visual-studio-code/develop/assets/screenshot_main_ts.png"/>
+
 ## Color Palette
 
 Color        | Hex       | RGB             | Usage
