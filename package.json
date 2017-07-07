@@ -1,0 +1,54 @@
+{
+  "name": "nostromo-theme",
+  "displayName": "Nostromo Theme",
+  "publisher": "Martin Theimer",
+  "description": "A retro sci-fi color theme",
+  "version": "0.9.0",
+  "author": {
+    "name": "Martin Theimer",
+    "email": "pappkamerad@decoded.net"
+  },
+  "homepage": "https://github.com/pappkamerad/nostromo-theme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pappkamerad/nostromo-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pappkamerad/nostromo-theme/issues"
+  },
+  "license": "LICENSE",
+  "markdown": "github",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "jshintConfig": {
+    "esversion": 6
+  },
+  "engines": {
+    "vscode": "^1.12.0"
+  },
+  "galleryBanner": {
+    "color": "#000000",
+    "theme": "dark"
+  },
+  "icon": "assets/icon.png",
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "retro",
+    "os",
+    "scifi",
+    "theme",
+    "color-theme"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Nostromo",
+        "uiTheme": "vs-dark",
+        "path": "./theme/Nostromo.json"
+      }
+    ]
+  }
+}
