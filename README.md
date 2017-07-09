@@ -47,7 +47,7 @@ BG_Accent_Ui | `#537a92` | `83, 122, 146`  | ui accent dark
 
 ## Credits
 
-- Technically inspired by [Material](https://github.com/equinusocio/vsc-material-theme), [Dracula](https://github.com/dracula/dracula-theme) and [Nord](https://github.com/arcticicestudio/nord-visual-studio-code) themes
+- Technically inspired by [Material](https://github.com/equinusocio/vsc-material-theme), [Dracula](https://github.com/dracula/dracula-theme) and [Nord](https://github.com/arcticicestudio/nord-visual-studio-code) themes. Thanks!
 
 © Martin Theimer
 
