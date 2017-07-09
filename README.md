@@ -1,12 +1,18 @@
-<p align="center"><img width="150px" src="https://raw.githubusercontent.com/pappkamerad/nostromo-theme-visual-studio-code/master/assets/icon.png"/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/pappkamerad/nostromo-theme-visual-studio-code/master/assets/icon.png"/></p>
 
-# Nostromo Theme
+# Nostromo Theme (for Visual Studio Code)
 
 A retro sci-fi color theme. 
 
 Inspired by computer terminals in sci-fi movies of the 70s and 80s.
 
 <img src="https://raw.githubusercontent.com/pappkamerad/nostromo-theme-visual-studio-code/master/assets/screenshot_main_ts.png"/>
+
+## Installation
+
+Launch VS Code Quick Open (Ctrl+P), paste the following command, and press enter.
+
+```ext install nostromo-theme```
 
 ## Color Palette
 
@@ -38,6 +44,10 @@ BG_Darker_1  | `#21272b` | `33, 39, 43`    | current line highlight, template la
 BG_Darker_2  | `#1d2326` | `29, 35, 38`    | misc. ui color
 BG_Accent    | `#5e9d63` | `94, 157, 99`   | search/find highlight background
 BG_Accent_Ui | `#537a92` | `83, 122, 146`  | ui accent dark
+
+## Credits
+
+- Technically inspired by [Material](https://github.com/equinusocio/vsc-material-theme), [Dracula](https://github.com/dracula/dracula-theme) and [Nord](https://github.com/arcticicestudio/nord-visual-studio-code) themes
 
 © Martin Theimer
 
