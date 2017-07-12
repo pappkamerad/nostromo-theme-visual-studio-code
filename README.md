@@ -6,13 +6,38 @@ A retro sci-fi color theme.
 
 Inspired by computer terminals in sci-fi movies of the 70s and 80s.
 
-<img src="https://raw.githubusercontent.com/pappkamerad/nostromo-theme-visual-studio-code/master/assets/screenshot_main_ts.png"/>
+<img src="https://raw.githubusercontent.com/pappkamerad/nostromo-theme-visual-studio-code/master/assets/screenshot_main.png"/>
 
 ## Installation
 
 Launch VS Code Quick Open (Ctrl+P), paste the following command, and press enter.
 
 ```ext install nostromo-theme```
+
+## Screenshots
+#### TypeScript with selection
+<img src="https://raw.githubusercontent.com/pappkamerad/nostromo-theme-visual-studio-code/master/assets/screenshot_selection.png"/>
+
+#### JavaScript with tooltips
+<img src="https://raw.githubusercontent.com/pappkamerad/nostromo-theme-visual-studio-code/master/assets/screenshot_tooltips.png"/>
+
+#### HTML with tag highlight and inline script
+<img src="https://raw.githubusercontent.com/pappkamerad/nostromo-theme-visual-studio-code/master/assets/screenshot_html.png"/>
+
+#### SASS with usage highlight
+<img src="https://raw.githubusercontent.com/pappkamerad/nostromo-theme-visual-studio-code/master/assets/screenshot_sass_highlight.png"/>
+
+#### JSON with coloring based on nesting level
+<img src="https://raw.githubusercontent.com/pappkamerad/nostromo-theme-visual-studio-code/master/assets/screenshot_json.png"/>
+
+#### Markdown with search highlight
+<img src="https://raw.githubusercontent.com/pappkamerad/nostromo-theme-visual-studio-code/master/assets/screenshot_markdown_find.png"/>
+
+#### Command palette
+<img src="https://raw.githubusercontent.com/pappkamerad/nostromo-theme-visual-studio-code/master/assets/screenshot_command.png"/>
+
+#### Diff view
+<img src="https://raw.githubusercontent.com/pappkamerad/nostromo-theme-visual-studio-code/master/assets/screenshot_diff.png"/>
 
 ## Color Palette
 
@@ -44,6 +69,12 @@ BG_Darker_1  | `#21272b` | `33, 39, 43`    | current line highlight, template la
 BG_Darker_2  | `#1d2326` | `29, 35, 38`    | misc. ui color
 BG_Accent    | `#5e9d63` | `94, 157, 99`   | search/find highlight background
 BG_Accent_Ui | `#537a92` | `83, 122, 146`  | ui accent dark
+
+## Other versions
+
+The Nostromo theme is also available for:
+* [Jetbrains IDEs](https://github.com/pappkamerad/nostromo-theme-jetbrains)
+
 
 ## Credits
 
