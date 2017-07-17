@@ -75,6 +75,7 @@ BG_Accent_Ui | `#537a92` | `83, 122, 146`  | ui accent dark
 The Nostromo theme is also available for:
 * [Jetbrains IDEs](https://github.com/pappkamerad/nostromo-theme-jetbrains)
 * [Sublime Text](https://github.com/pappkamerad/nostromo-theme-sublime)
+* [Visual Studio](https://github.com/pappkamerad/nostromo-theme-visual-studio)
 
 
 ## Credits
