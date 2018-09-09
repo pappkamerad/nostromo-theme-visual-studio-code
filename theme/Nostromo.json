@@ -33,7 +33,7 @@
       "#ffa55b",
       "#87d68a",
       "#ffa55b",
-      "#486861",
+      "#81d9c3",
       "#81d9c3",
       "#fdfae9",
       "#fdfae9",
@@ -723,17 +723,24 @@
         "storage.type.java",
         "storage.type.object.array.java",
         "storage.type.primitive.array.java",
-        "storage.type.primitive.java",
         "storage.type.token.java",
         "storage.type.groovy",
         "storage.type.parameters.groovy",
         "storage.type.generic.groovy",
         "storage.type.object.array.groovy",
-        "storage.type.primitive.array.groovy",
-        "storage.type.primitive.groovy"
+        "storage.type.primitive.array.groovy"
       ],
       "settings": {
         "foreground": "#81d9c3"
+      }
+    },
+    {
+      "name": "Primitive types",
+      "scope": [
+        "storage.type.primitive"
+      ],
+      "settings": {
+        "foreground": "#f6e78a"
       }
     },
     {
@@ -753,14 +760,14 @@
     {
       "name": "Namespaces, packages, modules, imports",
       "scope": [
-        "storage.modifier.import.java",
-        "storage.modifier.package.java",
+        "storage.modifier.import",
+        "storage.modifier.package",
         "entity.name.type.namespace",
         "entity.name.package",
         "entity.alias.import"
       ],
       "settings": {
-        "foreground": "#486861"
+        "foreground": "#81d9c3"
       }
     },
     {
