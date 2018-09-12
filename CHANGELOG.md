@@ -1,3 +1,10 @@
+## 0.9.4
+- add peek view colors
+- add more text colors
+- added non-opaque color variants
+- add merge conflict colors
+- add new notification colors
+
 ## 0.9.3
 - better namespace/packages color
 - fix Java and Groovy scopes
