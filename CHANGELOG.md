@@ -1,3 +1,9 @@
+## 1.0.0
+- finish all UI colors
+- add git colors
+- add breadcrumb colors
+- add zen mode background color
+
 ## 0.9.4
 - add peek view colors
 - add more text colors
