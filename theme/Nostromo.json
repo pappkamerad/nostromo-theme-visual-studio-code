@@ -336,9 +336,9 @@
     "welcomePage.buttonBackground": "#375061",
     "welcomePage.buttonHoverBackground": "#415f73",
     "walkThrough.embeddedEditorBackground": null,
-    "gitDecoration.addedResourceForeground": "#87d68a",
+    "gitDecoration.addedResourceForeground": "#81d9c3",
     "gitDecoration.modifiedResourceForeground": "#6b9dd0",
-    "gitDecoration.untrackedResourceForeground": "#81d9c3",
+    "gitDecoration.untrackedResourceForeground": "#87d68a",
     "gitDecoration.conflictingResourceForeground": "#aa97d3",
     "breadcrumb.foreground": "#6a6e6d",
     "breadcrumb.focusForeground": "#bebeb4",
@@ -398,7 +398,10 @@
     },
     {
       "scope": [
-        "constant.numeric"
+        "constant.numeric",
+        "constant.other.java",
+        "constant.other.groovy",
+        "support.constant.core"
       ],
       "settings": {
         "foreground": "#aa97d3"
@@ -788,7 +791,8 @@
         "keyword.other.special-method",
         "meta.block-level",
         "entity.other.less.mixin",
-        "meta.decorator meta.object.member entity.name.function"
+        "meta.decorator meta.object.member entity.name.function",
+        "meta.method.java meta.method.body.java meta.function-call.java variable.function.java"
       ],
       "settings": {
         "foreground": "#e75d57"
@@ -810,24 +814,20 @@
         "storage.type.java",
         "storage.type.object.array.java",
         "storage.type.primitive.array.java",
+        "storage.type.primitive.java",
         "storage.type.token.java",
         "storage.type.groovy",
         "storage.type.parameters.groovy",
         "storage.type.generic.groovy",
         "storage.type.object.array.groovy",
-        "storage.type.primitive.array.groovy"
+        "storage.type.primitive.array.groovy",
+        "storage.type.primitive.groovy",
+        "storage.type.class.java",
+        "storage.type.class.groovy",
+        "storage.class.std.rust"
       ],
       "settings": {
         "foreground": "#81d9c3"
-      }
-    },
-    {
-      "name": "Primitive types",
-      "scope": [
-        "storage.type.primitive"
-      ],
-      "settings": {
-        "foreground": "#f6e78a"
       }
     },
     {
@@ -870,7 +870,8 @@
       "name": "Enum members",
       "scope": [
         "variable.other.enummember",
-        "entity.name.variable.enum-member"
+        "entity.name.variable.enum-member",
+        "constant.other.enum"
       ],
       "settings": {
         "foreground": "#aa97d3"
@@ -900,7 +901,10 @@
       "scope": [
         "storage.type.annotation",
         "meta.decorator variable",
-        "meta.decorator entity.name.function"
+        "meta.decorator entity.name.function",
+        "variable.annotation",
+        "punctuation.definition.annotation",
+        "meta.attribute.rust"
       ],
       "settings": {
         "foreground": "#ffa55b"
@@ -928,11 +932,23 @@
       "scope": [
         "meta.function-call meta.function-call.arguments",
         "meta.method.java meta.method.body.java",
+        "meta.method.java meta.method.body.java meta.function-call.java",
         "meta.definition.method.groovy meta.method.body.java",
-        "meta.definition.method.groovy meta.definition.method.signature.java meta.method.parameters.groovy"
+        "meta.definition.method.groovy meta.definition.method.signature.java meta.method.parameters.groovy",
+        "meta.function-call.java meta.parens.java",
+        "storage.modifier.array.java"
       ],
       "settings": {
         "foreground": "#fdfae9"
+      }
+    },
+    {
+      "name": "Weird java color issues 2",
+      "scope": [
+        "meta.class.identifier.java storage.type.java"
+      ],
+      "settings": {
+        "foreground": "#f6e78a"
       }
     },
     {
@@ -964,11 +980,12 @@
     {
       "name": "Properties",
       "scope": [
+        "variable.object.property",
         "variable.other.object.property",
+        "variable.other.property",
+        "variable.other.constant.property",
         "entity.name.variable.property",
         "entity.name.variable.field",
-        "variable.object.property",
-        "variable.other.property",
         "support.variable.property",
         "meta.definition.property",
         "meta.field.declaration",
@@ -993,7 +1010,8 @@
       "name": "Type parameter",
       "scope": [
         "entity.name.type.type-parameter",
-        "meta.type.parameters entity.name.type"
+        "meta.type.parameters entity.name.type",
+        "meta.type_params"
       ],
       "settings": {
         "foreground": "#ffa55b"
@@ -1015,6 +1033,27 @@
       ],
       "settings": {
         "foreground": "#87d68a"
+      }
+    },
+    {
+      "name": "Rust macros",
+      "scope": [
+        "entity.name.function.macro",
+        "support.function.core.rust",
+        "support.function.std.rust"
+      ],
+      "settings": {
+        "foreground": "#e75d57",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Rust lifetimes",
+      "scope": [
+        "storage.modifier.lifetime"
+      ],
+      "settings": {
+        "foreground": "#fd5a91"
       }
     },
     {

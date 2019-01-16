@@ -1,3 +1,8 @@
+## 1.0.1
+- java color fixes
+- typescript enum color fix
+- better and more rust colors
+
 ## 1.0.0
 - finish all UI colors
 - add git colors
