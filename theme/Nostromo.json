@@ -41,7 +41,7 @@
       "#ffa55b",
       "#87d68a",
       "#ffa55b",
-      "#81d9c3",
+      "#fdfae9",
       "#81d9c3",
       "#fdfae9",
       "#fdfae9",
@@ -106,7 +106,7 @@
     "focusBorder": "#537a92",
     "foreground": "#fdfae9",
     "widget.shadow": "#21272b",
-    "selection.background": "#f6e78a",
+    "selection.background": "#375061",
     "descriptionForeground": "#bebeb4",
     "errorForeground": null,
     "textBlockQuote.background": "#2e363d",
@@ -132,6 +132,7 @@
     "inputValidation.infoBackground": "#6a6e6d",
     "inputValidation.infoBorder": "#6a6e6d",
     "inputValidation.warningBackground": "#f6e78a",
+    "inputValidation.warningForeground": "#282e33",
     "inputValidation.warningBorder": "#f6e78a",
     "scrollbar.shadow": "#21272b",
     "scrollbarSlider.activeBackground": "#4a6c8270",
@@ -401,6 +402,7 @@
         "constant.numeric",
         "constant.other.java",
         "constant.other.groovy",
+        "constant.other.rust",
         "support.constant.core"
       ],
       "settings": {
@@ -792,7 +794,8 @@
         "meta.block-level",
         "entity.other.less.mixin",
         "meta.decorator meta.object.member entity.name.function",
-        "meta.method.java meta.method.body.java meta.function-call.java variable.function.java"
+        "meta.method.java meta.method.body.java meta.function-call.java variable.function.java",
+        "meta.function.rust meta.block.rust support.function"
       ],
       "settings": {
         "foreground": "#e75d57"
@@ -824,7 +827,10 @@
         "storage.type.primitive.groovy",
         "storage.type.class.java",
         "storage.type.class.groovy",
-        "storage.class.std.rust"
+        "storage.class.std.rust",
+        "storage.type.source.rust",
+        "meta.trait",
+        "meta.struct"
       ],
       "settings": {
         "foreground": "#81d9c3"
@@ -851,10 +857,11 @@
         "storage.modifier.package",
         "entity.name.type.namespace",
         "entity.name.package",
-        "entity.alias.import"
+        "entity.alias.import",
+        "meta.path.rust"
       ],
       "settings": {
-        "foreground": "#81d9c3"
+        "foreground": "#fdfae9"
       }
     },
     {
@@ -890,7 +897,10 @@
         "meta.method.identifier.java",
         "meta.brace",
         "string.unquoted.cdata.xml punctuation.definition.string",
-        "meta.function-call.method.js meta.object-literal.js"
+        "meta.function-call.method.js meta.object-literal.js",
+        "meta.generic punctuation.definition.generic",
+        "meta.block.rust",
+        "meta.group.rust"
       ],
       "settings": {
         "foreground": "#fdfae9"
@@ -904,7 +914,8 @@
         "meta.decorator entity.name.function",
         "variable.annotation",
         "punctuation.definition.annotation",
-        "meta.attribute.rust"
+        "meta.attribute.rust",
+        "meta.annotation.rust"
       ],
       "settings": {
         "foreground": "#ffa55b"
@@ -990,7 +1001,8 @@
         "meta.definition.property",
         "meta.field.declaration",
         "meta.property.object",
-        "constant.other.key"
+        "constant.other.key",
+        "variable.other.member"
       ],
       "settings": {
         "foreground": "#6b9dd0"
@@ -1011,7 +1023,10 @@
       "scope": [
         "entity.name.type.type-parameter",
         "meta.type.parameters entity.name.type",
-        "meta.type_params"
+        "meta.type_params",
+        "meta.type_params.rust storage.class.std.rust",
+        "meta.type_params.rust storage.type",
+        "meta.generic"
       ],
       "settings": {
         "foreground": "#ffa55b"
@@ -1040,7 +1055,8 @@
       "scope": [
         "entity.name.function.macro",
         "support.function.core.rust",
-        "support.function.std.rust"
+        "support.function.std.rust",
+        "support.macro.rust"
       ],
       "settings": {
         "foreground": "#e75d57",
